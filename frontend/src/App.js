@@ -18,6 +18,10 @@ function App() {
                     <li key={index}>{item}</li>
                 ))}
             </ul>
+            <p>Backend API URL: {process.env.REACT_APP_API_URL}</p>
+            <div>
+                <img src={logo} className="App-logo" alt="logo" /> 
+            </div>
         </div>
   );
 }
